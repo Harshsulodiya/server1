@@ -9,18 +9,52 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
-	<link rel="stylesheet" href="johndoe.css">
+	<link rel="stylesheet" href="assets/css/johndoe.css">
 </head>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    .header {
+        color: #fff;
+        padding: 80px 0;
+        text-align: center;
+    }
+    .header-title {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .header-subtitle {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .header-mono {
+        font-size: 1.2rem;
+        opacity: 0.8;
+    }
+    .btn-rounded {
+        border-radius: 50px;
+        padding: 10px 25px;
+    }
+    .btn-primary {
+        background: #ff5733;
+        border: none;
+        transition: all 0.3s ease;
+    }
+    .btn-primary:hover {
+        background: #c70039;
+    }
+</style>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
     <header class="header">
         <div class="container">
-             
             <div class="header-content">
-                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h4 class="header-subtitle">Hello, I am</h4>
                 <h1 class="header-title">Harsh Kumar</h1>
-                <h6 class="header-mono" >Software Engineer | Developer</h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <h6 class="header-mono">Software Engineer | Developer</h6>
+                <a href="assets\My_CV.pdf" download class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i> Print Resume</a>
             </div>
         </div>
     </header>
@@ -42,7 +76,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="images/avatar.jpg" alt="" class="brand-img">
+                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Harsh kumar</h5>
                         <div class="brand-subtitle">Software Engineer | Developer</div>
@@ -70,7 +104,7 @@
                   Enthusiastic Python developer with a strong foundation in programming, data structures, and algorithms. Skilled in libraries like Pandas, NumPy, and Flask. Quick learner with a passion for problem-solving and a keen interest in software development and data analysis.
                 </p>
                 <!-- Update the href with the correct path to your CV file -->
-                <a href="My_CV.pdf" download="My_CV.pdf" class="btn btn-outline-danger">
+                <a href="assets\My_CV.pdf" download="My_CV.pdf" class="btn btn-outline-danger">
                   <i class="icon-down-circled2"></i> Download My CV
                 </a>
             </div>
@@ -302,35 +336,35 @@
                 <div class="cert-grid">
                     <!-- Certification Item 1 -->
                     <div class="cert-item">
-                    <img src="images/Intro to ML.jpg" alt="Certification 1" />
+                    <img src="assets/imgs/Intro to ML.jpg" alt="Certification 1" />
                     <div class="cert-content">
                         <h6>Intro to ML</h6>
                     </div>
                     </div>
                     <!-- Certification Item 2 -->
                     <div class="cert-item">
-                    <img src="images/certification-2.jpg" alt="Certification 2" />
+                    <img src="assets/imgs/certification-2.jpg" alt="Certification 2" />
                     <div class="cert-content">
                         <h6>Web Application</h6>
                     </div>
                     </div>
                     <!-- Certification Item 3 -->
                     <div class="cert-item">
-                    <img src="images/certification-3.jpg" alt="Certification 3" />
+                    <img src="assets/imgs/certification-3.jpg" alt="Certification 3" />
                     <div class="cert-content">
                         <h6>Python for Data Science</h6>
                     </div>
                     </div>
                     <!-- Certification Item 4 -->
                     <div class="cert-item">
-                    <img src="images/certification-4.jpg" alt="Certification 4" />
+                    <img src="assets/imgs/certification-4.jpg" alt="Certification 4" />
                     <div class="cert-content">
                         <h6>Python Basics</h6>
                     </div>
                     </div>
                     <!-- Certification Item 5 -->
                     <div class="cert-item">
-                    <img src="images/certification-5.jpg" alt="Certification 5" />
+                    <img src="assets/imgs/certification-5.jpg" alt="Certification 5" />
                     <div class="cert-content">
                         <h6>DataScience-Scikit Learn</h6>
                     </div>
@@ -423,22 +457,7 @@
             </p>
         </div>
     </footer>
-
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Isotope  -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
-
-    <!-- JohnDoe js -->
-    <script src="assets/js/johndoe.js"></script>
-
+    
 </body>
 </html>
