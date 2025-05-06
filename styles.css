@@ -59,6 +59,10 @@ body {
   background-color: #fff;
 }
 
+.container {
+  background-image: url('images/header.jpg');
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
